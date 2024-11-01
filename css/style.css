@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.socialmediabar{
+    background-color: #EFF5FF;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 3rem;
+}
+
+.socialmedialist{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.smi{
+    height: 30;
+    
+}
+
