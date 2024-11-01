@@ -102,6 +102,7 @@
     transition: 300ms;
     color: #737373;
     overflow: hidden;
+    font-family: 'Inter';
   }
   
   /* .selected {
@@ -131,11 +132,12 @@
     flex-direction: column;
     border-radius: 5px;
     padding: 5px;
-    background-color: #2a2f3b;
+    background-color: #0171bb;
     position: relative;
     top: -100px;
     opacity: 0;
     transition: 300ms;
+    font-family: 'Inter';
   }
   
   .select:hover > .options {
@@ -151,12 +153,14 @@
     border-radius: 5px;
     padding: 5px;
     transition: 300ms;
-    background-color: #2a2f3b;
+    background-color: #0171bb;
     width: 150px;
     font-size: 15px;
+    font-family: 'Inter';
+    color: white;
   }
   .option:hover {
-    background-color: #323741;
+    background-color: #0099FE;
   }
   
   .options input[type="radio"] {
@@ -181,13 +185,12 @@
   .select:has(.options input[type="radio"]#all:checked) .selected::before {
     content: attr(data-default);
   }
-  .select:has(.options input[type="radio"]#option-1:checked) .selected::before {
+  .select:has(.options input[type="radio"]#Autoridades:checked) .selected::before {
     content: attr(data-one);
   }
-  .select:has(.options input[type="radio"]#option-2:checked) .selected::before {
+  .select:has(.options input[type="radio"]#Ministero:checked) .selected::before {
     content: attr(data-two);
   }
-  .select:has(.options input[type="radio"]#option-3:checked) .selected::before {
+  .select:has(.options input[type="radio"]#Despacho del Ministro:checked) .selected::before {
     content: attr(data-three);
   }
-  
