@@ -100,11 +100,11 @@
     cursor: pointer;
     position: relative;
     transition: 300ms;
-    color: white;
+    color: #737373;
     overflow: hidden;
   }
   
-  .selected {
+  /* .selected {
     background-color: #2a2f3b;
     padding: 5px;
     margin-bottom: 3px;
@@ -115,16 +115,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
+  } */
   
   .arrow {
     position: relative;
-    right: 0px;
     height: 10px;
     transform: rotate(-90deg);
-    width: 25px;
-    fill: white;
-    z-index: 100000;
+    fill: #737373;
+    z-index: 1;
     transition: 300ms;
   }
   
@@ -163,7 +161,7 @@
   
   .options input[type="radio"] {
     display: none;
-  }
+  } 
   
   .options label {
     display: inline-block;
