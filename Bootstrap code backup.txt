@@ -1,0 +1,182 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+        
+        /* Additional styles */
+        .banner {
+            background-image: linear-gradient(to left, rgba(255,255,255,0) 50%, rgba(255,255,255,1) 80%), 
+                              url('images/Foto-2-scaled-1-2048x1125-1.jpg');
+            background-size: cover;
+            background-position: 20rem 85%;
+            height: 30rem;
+            position: relative;
+        }
+
+        .banner h1 {
+            font-family: 'Inter';
+            font-weight: 900;
+            font-size: 3rem;
+            text-transform: uppercase;
+            color: black;
+            padding-left: 2rem;
+            padding-top: 5rem;
+        }
+
+        .blue {
+            color: #0171bb;
+        }
+
+        .card {
+            background: rgba(217, 217, 217, 0.58);
+            border: 1px solid #0171bb;
+            box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+            border-radius: 17px;
+            cursor: pointer;
+            transition: all 0.5s;
+            font-weight: bolder;
+            color: black;
+            padding: 2rem;
+            margin: 1rem 0;
+        }
+
+        .card:hover {
+            border-color: black;
+            transform: scale(1.05);
+        }
+
+        .pushable {
+            font-family: 'Inter';
+            font-weight: 400;
+            color: white;
+            background-color: hsl(204, 99%, 37%);
+            border: none;
+            padding: 12px 16px;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .pushable:hover {
+            filter: brightness(1.1);
+            transform: translateY(-2px);
+        }
+    </style>
+    <title>Dirección de Programación de Inversiones - MINISTERIO DE ECONOMIA Y FINANZAS</title>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="banner">
+            <h1>Dirección de <span class="blue">Programación</span> <br>de <span class="blue">Inversiones</span></h1>
+            <div class="container", style="background-color: brown;">
+                <div class="row">
+                    <div class="col">
+                        <button class="pushable ">Información General</button>
+                    </div>
+                    <div class="col">
+                        <button class="pushable ">Enlaces Útiles</button>
+                    </div>
+                </div>
+                
+                <div class="row mt-3">
+                    <div class="col">
+                        <button class="pushable ">Banco de Proyectos</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="pushable">SIG-SINIP</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        </div>
+
+        <div class="container mt-4">
+            <div class="row">
+                
+
+            <h1 class="section-title mt-2">Documentos</h1>
+
+            <div class="row px-5", style="background-color: #0171bb;">
+                <!-- Left Column -->
+                <div class="col-md-6", style="background-color: #a200ff;">
+                    <div class="card">
+                        <h2>Enlaces Externos</h2>
+                        <div class="links d-flex align-items-center mt-3">
+                            <img class="link_ico me-2" src="images/link.svg" alt="link" width="20">
+                            <a href="#" >Manual de Usuario</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h2>Plan Quinquenal de Inversiones</h2>
+                        <p class="mt-3">
+                            En esta sección se presenta el Plan Quinquenal de Inversiones (PQI) que detalla las iniciativas de inversión programadas por las entidades que conforman el Sector Público No Financiero. El PQI se actualiza todos los años, en cumplimiento a lo dispuesto en el Artículo 16 de la Ley N° 34 del 5 de junio de 2008 de Responsabilidad Social Fiscal (LRSF), que establece la responsabilidad de actualizar el programa (quinquenal) de inversión pública que forma parte integral del Plan Estratégico de Gobierno, adoptado por el Órgano Ejecutivo, dentro de los seis (6) primeros meses de instalada la nueva Administración, enmarcado dentro de los objetivos y las metas surgidas en la Concertación Nacional para el Desarrollo y su propio compromiso electoral. <br><br> 
+                            De conformidad con las normas vigentes, la actualización del Plan Quinquenal de la Inversiones No Financieras, le corresponde a las instituciones inversoras bajo la coordinación de la Dirección de Programación de Inversiones (DPI) del Ministerio de Economía y Finanzas.​​​​​​
+                        </p>
+                        <ul class="ps-3 mt-2">
+                            <li>Beneficiario: Ciudadanos; Empresas; Instituciones; Inversionistas</li>
+                            <li>Dirección: Programación de Inversiones</li>
+                        </ul>
+
+                        <div class="links mt-3">
+                            <div class="d-flex align-items-center mb-2">
+                                <img class="link_ico me-2" src="images/link.svg" alt="link" width="20">
+                                <a href="https://www.mef.gob.pa/wp-content/uploads/2024/08/PQI-2018_2022.pdf" target="_blank">PQI – 2018-2022</a>
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <img class="link_ico me-2" src="images/link.svg" alt="link" width="20">
+                                <a href="https://www.mef.gob.pa/wp-content/uploads/2024/08/PQI-2018_2022.pdf" target="_blank">PQI – 2016-2020</a>
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <img class="link_ico me-2" src="images/link.svg" alt="link" width="20">
+                                <a href="https://www.mef.gob.pa/wp-content/uploads/2024/08/PQI-2018_2022.pdf" target="_blank">PQI – 2015-2019</a>
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <img class="link_ico me-2" src="images/link.svg" alt="link" width="20">
+                                <a href="https://www.mef.gob.pa/wp-content/uploads/2024/08/PQI-2018_2022.pdf" target="_blank">PQI – 2013-2017</a>
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <img class="link_ico me-2" src="images/link.svg" alt="link" width="20">
+                                <a href="https://www.mef.gob.pa/wp-content/uploads/2024/08/PQI-2018_2022.pdf" target="_blank">PQI – 2012-2016</a>
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <img class="link_ico me-2" src="images/link.svg" alt="link" width="20">
+                                <a href="https://www.mef.gob.pa/wp-content/uploads/2024/08/PQI-2018_2022.pdf" target="_blank">PQI – 2011-2015</a>
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <img class="link_ico me-2" src="images/link.svg" alt="link" width="20">
+                                <a href="https://www.mef.gob.pa/wp-content/uploads/2024/08/PQI-2018_2022.pdf" target="_blank">PQI – 2010-2014</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column -->
+                <div class="col-md-6", style="background-color: #ff5733;">
+                    <div class="card">
+                        <h2>Programa de Inversiones Públicas No Financieras</h2>
+                        <div class="links d-flex align-items-center mt-3">
+                            <img class="link_ico me-2" src="images/link.svg" alt="link" width="20">
+                            <a href="#" class="text-decoration-none">Informe de Ejecución Vigencia 2022</a>
+                        </div>
+                        <!-- Add additional links as necessary following the same structure -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="text-center mt-5">
+            <!-- Footer content here -->
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
