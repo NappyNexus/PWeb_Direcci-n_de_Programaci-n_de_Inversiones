@@ -249,7 +249,15 @@
   margin-right: 1rem;
   font-family: 'Inter';
   font-weight: 400;
-} 
+}
+
+.drop_title{
+  font-family: 'Inter';
+  font-weight: 600;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  color:#737373;
+}
 
 
 
