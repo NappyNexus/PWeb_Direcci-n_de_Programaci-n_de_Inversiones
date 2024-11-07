@@ -1,0 +1,27 @@
+.container-lg{
+    background-image: linear-gradient(to bottom, #0171BB, #0099FE);
+}
+
+.container-lg h1{
+    font-family: 'Inter';
+    font-weight: 700;
+    color: white;
+}
+
+.container-lg h2{
+    font-family: 'Inter';
+    font-weight: 600;
+    color: white;
+}
+
+.container-lg p{
+    font-family: 'Inter';
+    font-weight: 300;
+    color: white;
+}
+
+ul li{
+    font-family: 'Inter';
+    font-weight: 300;
+    color: white;
+}

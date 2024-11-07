@@ -347,7 +347,7 @@ footer{
 }
 
 .father{
-  /* width: 100%; */
+  
   padding-left: 3rem;
   padding-right: 3rem;
   display: flex;
@@ -359,7 +359,7 @@ footer{
   width: 20%;
   height: 10%;
   margin-top: 1rem;
-  /* background-color: aqua; */
+  
 }
 
 .children h1{
