@@ -169,6 +169,7 @@
 
 .right_column{
   width: 100%;
+  /* background-color: aqua; */
 }
 
 .card {
@@ -189,14 +190,14 @@
   margin: 3rem 2rem ;
 }
 
-.card:hover {
+/* .card:hover {
   border: 1px solid black;
   transform: scale(1.05);
 }
 
 .card:active {
   transform: scale(0.95) rotateZ(1.7deg);
-}
+} */
 
 .card h2{
   font-family: 'Inter';
@@ -206,6 +207,13 @@
   color:#737373;
   
 }
+
+#right_card{
+  min-height: 55.9rem;
+  max-height: 55.9rem;
+  overflow: auto;
+}
+
 .link_ico{
   width: 1.1rem;
   margin-left: 1rem;
@@ -251,13 +259,55 @@
   font-weight: 400;
 }
 
-.drop_title{
-  font-family: 'Inter';
-  font-weight: 600;
-  margin-left: 1rem;
-  margin-bottom: 2rem;
-  color:#737373;
+/* test */
+.faq {
+  margin: 1rem 0rem 0rem 0rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  border-bottom: 1.5px solid #B8B8B8;
+  cursor: pointer;
 }
 
+.question
+{
+  display: flex;
+  align-items: center;
+}
 
+.question h3
+{
+  font-size: 1rem;
+  font-family: 'Inter';
+  font-weight: 400;
+  color: black;
+  margin-left: 0.4rem;
 
+}
+
+.answer
+{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.6s ease-in-out;
+}
+
+.answer p
+{
+  padding-top: 1rem;
+  /* font-size: 1rem; */
+  width: 40rem;
+  font-family: 'Inter';
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.answer a{
+  font-family: 'Inter';
+  font-weight: 400;
+  color: #0171BB;
+}
+
+.faq.active .answer
+{
+  max-height: 600px;
+}
