@@ -1,20 +1,20 @@
-.container-lg{
+.container-sm{
     background-image: linear-gradient(to bottom, #0171BB, #0099FE);
 }
 
-.container-lg h1{
+.container-sm h1{
     font-family: 'Inter';
     font-weight: 700;
     color: white;
 }
 
-.container-lg h2{
+.container-sm h2{
     font-family: 'Inter';
     font-weight: 600;
     color: white;
 }
 
-.container-lg p{
+.container-sm p{
     font-family: 'Inter';
     font-weight: 300;
     color: white;
@@ -25,3 +25,81 @@ ul li{
     font-weight: 300;
     color: white;
 }
+
+.container-sm a{
+    font-family: 'Inter';
+    font-weight: 300;
+    color: white;
+}
+
+/* Button style */
+.button {
+    position: relative;
+    width: 4em;
+    height: 4em;
+    border: 3px solid #0171BB;
+    background: white;
+    border-radius: 100%;
+    transition: background 0.5s;
+  }
+  
+  .X {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2em;
+    height: 1.5px;
+    background-color: #0171BB;
+    transform: translateX(-50%) rotate(45deg);
+  }
+  
+  .Y {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2em;
+    height: 1.5px;
+    background-color: #0171BB;
+    transform: translateX(-50%) rotate(-45deg);
+  }
+  
+  .close {
+    position: absolute;
+    display: flex;
+    padding: 0.8rem 1.5rem;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-50%);
+    top: -70%;
+    left: 50%;
+    width: 3em;
+    height: 1.7em;
+    font-size: 12px;
+    background-color: #0171BB;
+    color: rgb(187, 229, 236);
+    border: none;
+    border-radius: 3px;
+    pointer-events: none;
+    opacity: 0;
+  }
+  
+  .button:hover {
+    background-color: rgb(211, 21, 21);
+  }
+  
+  .button:active {
+    background-color: rgb(130, 0, 0);
+  }
+  
+  .button:hover > .close {
+    animation: close 0.2s forwards 0.25s;
+  }
+  
+  @keyframes close {
+    100% {
+      opacity: 1;
+    }
+  }
+  
