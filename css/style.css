@@ -139,7 +139,7 @@
 .card1 {
   box-sizing: border-box;
   width: auto;
-  height: auto;
+  max-height: 55.5rem;
   background: rgba(217, 217, 217, 0.58);
   border: 1px solid #0171bb;
   box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
@@ -152,6 +152,7 @@
   color: black;
   padding: 2rem;
   margin: 3rem 2rem ;
+  overflow-y: auto;
 }
 
 /* .card1:hover {
@@ -162,6 +163,7 @@
 .card1:active {
   transform: scale(0.95) rotateZ(1.7deg);
 } */
+
 .card1 h2 {
   font-size: 1.5rem;
   color: #737373;
@@ -200,6 +202,7 @@
 .accordion-button:focus {
   box-shadow: none !important; /* Quita el borde de enfoque azul */
   outline: none !important; /* Elimina cualquier otro borde de enfoque */
+  
 }
 
 .accordion-body {
@@ -213,6 +216,7 @@
 
 .accordion-header {
   background-color: transparent !important; /* Fondo transparente en los encabezados */
+  border-bottom: #aeaeae 0.5px solid;
 }
 
 
@@ -221,7 +225,6 @@
   font-family: 'Inter', sans-serif !important;  /* Cambia la fuente aquí */
   color: #000 !important;
   background-color: transparent !important; /* Fondo transparente */
-  border: none; /* Quita los bordes si lo prefieres */
   display: flex;                /* Usamos flexbox para organizar los elementos */
   justify-content: flex-start;  /* Alineamos el contenido a la izquierda */
   padding-left: 1.5rem;         /* Ajustamos el padding de la izquierda */
@@ -272,4 +275,8 @@ footer{
 .modal-backdrop.show {
   background-color: rgba(255, 255, 255, 10); /* Fondo semi-transparente */
   backdrop-filter: blur(500px); /* Nivel de difuminado */
+}
+
+.front{
+  text-decoration: none;
 }
