@@ -26,12 +26,12 @@
     height: 30rem;
     position: relative;
     background-image: 
-    linear-gradient(to left, rgba(255,255,255,0) 50%,rgba(255,255,255,1) 80%),
-    url(/images/foto.jpg);
-    /* background-position: 20rem; */
+    /* linear-gradient(to left, rgba(255,255,255,0) 50%,rgba(255,255,255,1) 80%), */
+    url(/images/Mask\ group.png);
+    background-position: 20rem;
     background-position-y: 85%;
-    /* background-size: cover; */
-    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-repeat: no-repeat;
     padding-top: 5rem;
 }
 
