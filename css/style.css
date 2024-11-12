@@ -31,7 +31,7 @@
     background-position: 20rem;
     background-position-y: 85%;
     background-size: cover;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     padding-top: 5rem;
 }
   .blue{
