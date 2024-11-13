@@ -21,13 +21,12 @@
     color: black;
 
   }
+
   .banner{
     width: auto;
     height: 30rem;
     position: relative;
-    background-image: 
-    /* linear-gradient(to left, rgba(255,255,255,0) 50%,rgba(255,255,255,1) 80%), */
-    url(/images/Mask\ group.png);
+    background-image: url(../images/Maskgroup.png);
     background-position: 20rem;
     background-position-y: 85%;
     background-size: cover;
